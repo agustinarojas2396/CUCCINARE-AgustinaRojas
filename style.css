@@ -1,0 +1,95 @@
+
+.viajes{
+    align-items: center;
+    text-align: center;
+}
+
+body{
+    background-image: url(./media/fondo\ para\ comida.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;}
+
+.titulo{ 
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    color: rgb(59, 58, 58);}
+
+.menu{
+    list-style: none;
+    width: 90%;
+    margin: 20px auto;
+    z-index: 1;
+    display:inline-block;}
+li{
+    display: inline-block;
+    text-align: center;
+    transition:all 300ms;}
+
+a{
+    transform: all 300ms;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;}
+
+.nav-item{
+    transform: all 300ms;}
+.nav-item:hover{
+        transform: scale(1,02);
+        border-radius: 100%;}
+.speech{
+    font-family: 'Alfa Slab One', cursive;
+    color: beige;
+    margin-left: 2rem;
+    padding: 2rem;}
+.pedir{
+color: white;
+text-align: center;
+font-family: 'Work Sans', sans-serif;}
+.list-group-item{
+    color: black;}
+.carrito{
+    color: beige}
+
+.btn-default{
+    color: beige;}
+
+.btn-default:hover{
+    color: beige;}
+
+.precio{
+    color: beige;}
+.total{
+    color: beige;}
+.card{
+    padding: 2rem;
+    display: inline-block;
+    align-items: center;}
+
+.comprar{
+    text-align: center;}
+
+.pagos2{
+    text-align: center;
+    padding: 2rem;}
+.card-title{
+    font-size: 15px;}
+.tiempoviaje{
+    align-items: center;
+    text-align: center;
+    padding: 2rem;}
+
+.salta{
+    padding: 3rem;}
+
+.bariloche{
+    padding: 3rem;}
+
+.mendoza{
+    padding: 3rem;}
+
+.footer{
+    text-align: center;
+    font-size: 15px;
+    color: black;}
